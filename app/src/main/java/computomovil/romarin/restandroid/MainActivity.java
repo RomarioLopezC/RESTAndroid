@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FetchDataTask fetchDataTask = new FetchDataTask((TextView) findViewById(R.id.textViewJson));
-        fetchDataTask.execute("Start");
+
     }
 }
